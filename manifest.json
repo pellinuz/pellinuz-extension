@@ -1,0 +1,33 @@
+{
+	"manifest_version": 3,
+	"name": "Random Image",
+	"version": "1.0",
+	"description": "R-34.xyz random media displayer ;'3",
+	"permissions": [
+		"activeTab",
+		"storage",
+		"scripting",
+		"tabs"
+	],
+	"content_scripts": [
+		{
+			"js": [
+				"pextscript.js"
+			],
+			"css": [
+				"pextstyle.css"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	],
+	"icons": {
+		"16": "image.png",
+		"48": "image.png",
+		"128": "image.png"
+	},
+	"action": {
+		"default_popup": "popup/popup.html"
+	}
+}

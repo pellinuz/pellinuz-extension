@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body {
+	font-family: 'Exo 2', sans-serif;
+	background: #2E2F40;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	max-height: 96vh;
+}
+
+#outputimg {
+	width: auto;
+	max-width: 50%;
+	height: auto;
+	max-height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	border: 8px solid black;
+}
+
+a {
+	color: lime;
+	text-decoration: none;
+}

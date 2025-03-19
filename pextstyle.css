@@ -1,0 +1,58 @@
+:root {
+	--colorcode: #212121;
+	--colorcode2: #171717;
+}
+
+body {
+	cursor: url("https://imgur.com/cmf7PnD.png"), default;
+	cursor: url("https://imgur.com/cmf7PnD.png"), pointer;
+}
+
+/* Nuvola*/
+
+#app, .hVXNUA {
+	background: var(--colorcode) !important;
+	color: white !important;
+}
+
+header {
+	background: var(--colorcode) !important;
+}
+
+.jdHebg {
+	background: var(--colorcode) !important;
+	color: white !important;
+}
+
+.jaPCBf li {
+	background: var(--colorcode) !important;
+	color: white !important;
+}
+
+.jaPCBf li div {
+	background: var(--colorcode2) !important;
+	color: white !important;
+}
+
+main {
+	background: var(--colorcode) !important;
+	color: white !important;
+}
+
+.iGxBym a {
+	color: white !important;
+	border-bottom: 1px var(--colorcode2) solid;
+	border-right: 1px var(--colorcode2) solid;
+}
+
+.iGxBym a:hover {
+	color: var(--colorcode2) !important;
+	border-bottom: 1px var(--colorcode2) solid;
+	border-right: 1px var(--colorcode2) solid;
+}
+
+/* Pinterest*/
+
+.Hsu:nth-of-type(63) {
+	background: var(--colorcode) !important;
+}
