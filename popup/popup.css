@@ -15,7 +15,7 @@ body {
 #outputimg {
 	width: 90%;
 	max-width: 90%;
-	height: 80%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
